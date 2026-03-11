@@ -30,7 +30,7 @@ export function Hero() {
         <div className="inline-flex items-center gap-2 px-5 py-2 rounded-full border border-neon-violet/20 bg-neon-violet/5 mb-8">
           <span className="w-2 h-2 rounded-full bg-neon-violet animate-pulse" />
           <span className="text-xs text-white/50 font-mono">
-            Roblox Developer · Vibe Coder
+            Roblox Scripter · Vibe Coder · 14 ans
           </span>
         </div>
 
@@ -55,12 +55,12 @@ export function Hero() {
         {/* Tagline */}
         <p className="text-base sm:text-lg text-white/40 mb-3 max-w-lg mx-auto">
           Passionné par le scripting{" "}
-          <span className="text-neon-violet font-medium">Roblox</span> et la
-          création de projets qui ont du style.
+          <span className="text-neon-violet font-medium">Roblox</span>, le reverse engineering d'APIs
+          et la création de trucs qui marchent.
         </p>
 
         <p className="text-sm text-white/20 max-w-md mx-auto mb-10">
-          ~95 000 vues sur mes scripts Luau — autodidacte et toujours en train de builder.
+          ~100k vues officielles sur mes scripts Luau (~200k en comptant les copies) — autodidacte, 14 ans, toujours en train d'apprendre.
         </p>
 
         {/* Stats */}
@@ -70,9 +70,9 @@ export function Hero() {
               <Sparkles size={16} className="text-neon-violet" />
             </div>
             <div className="text-left">
-              <p className="text-lg font-bold text-gradient font-mono">95k+</p>
+              <p className="text-lg font-bold text-gradient font-mono">100k+</p>
               <p className="text-[10px] text-white/30 uppercase tracking-wider">
-                vues
+                vues officielles
               </p>
             </div>
           </div>
