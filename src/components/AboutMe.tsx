@@ -3,33 +3,34 @@ import { Code2, User, Zap, Moon, Gamepad2 } from "lucide-react";
 const highlights = [
   {
     icon: <Gamepad2 size={20} className="text-neon-violet" />,
-    label: "Roblox Dev",
-    desc: "Scripting Luau & game dev",
+    label: "Roblox Scripter",
+    desc: "Scripts Luau, 100k+ vues",
   },
   {
     icon: <Code2 size={20} className="text-neon-blue" />,
-    label: "Autodidacte",
-    desc: "J'apprends en construisant",
+    label: "Vibe Coder",
+    desc: "L'IA comme outil, moi comme pilote",
   },
   {
     icon: <Moon size={20} className="text-neon-pink" />,
-    label: "Vibe Coder",
-    desc: "Du code à l'instinct",
+    label: "Reverse Eng.",
+    desc: "Je démonte les APIs pour comprendre",
   },
   {
     icon: <Zap size={20} className="text-neon-green" />,
-    label: "Créatif",
-    desc: "Du code avec de l'ambition",
+    label: "Autodidacte",
+    desc: "14 ans, j'apprends en faisant",
   },
 ];
 
 const techStack = [
   { name: "Luau", color: "border-neon-green/30 text-neon-green" },
+  { name: "Python", color: "border-neon-blue/30 text-neon-blue" },
+  { name: "Reverse Engineering", color: "border-neon-violet/30 text-neon-violet" },
   { name: "Roblox Studio", color: "border-neon-blue/30 text-neon-blue" },
-  { name: "JavaScript", color: "border-yellow-400/30 text-yellow-400" },
-  { name: "React", color: "border-neon-blue/30 text-neon-blue" },
-  { name: "HTML / CSS", color: "border-neon-pink/30 text-neon-pink" },
-  { name: "Tailwind", color: "border-cyan-400/30 text-cyan-400" },
+  { name: "APIs", color: "border-neon-pink/30 text-neon-pink" },
+  { name: "JavaScript (un peu)", color: "border-yellow-400/30 text-yellow-400" },
+  { name: "HTML / CSS (un peu)", color: "border-cyan-400/30 text-cyan-400" },
 ];
 
 export function AboutMe() {
@@ -77,31 +78,29 @@ export function AboutMe() {
               <p className="text-white/60 leading-relaxed mb-4 text-sm sm:text-base">
                 Je m'appelle{" "}
                 <span className="text-white font-semibold">Misha BLESKINE</span>,
-                développeur autodidacte. J'ai commencé par le
-                scripting{" "}
+                j'ai 14 ans et je suis autodidacte. J'ai commencé par scripter en{" "}
                 <span className="text-neon-blue font-semibold">
                   Luau sur Roblox
                 </span>{" "}
                 sous le pseudo <span className="text-neon-violet font-medium font-mono">voxxar20</span>,
-                où mes scripts ont cumulé près de{" "}
+                où mes scripts ont cumulé{" "}
                 <span className="text-neon-green font-semibold">
-                  95 000 vues
+                  ~100k vues officielles
                 </span>{" "}
-                sur RScripts.
+                sur RScripts (plus si on compte les copies).
               </p>
               <p className="text-white/40 leading-relaxed text-sm mb-4">
                 Aujourd'hui sous le nom de <span className="text-neon-blue font-medium font-mono">Zenith__</span>,
-                je continue à coder, expérimenter et apprendre. Je vibe code — je crée à l'instinct,
-                projet après projet. Pas de diplôme, juste de la passion et beaucoup de pratique.
+                je travaille surtout sur le <span className="text-neon-violet font-medium">reverse engineering d'APIs</span> et l'IA avec Hugging Face.
+                Je vibe code — je ne code pas seul de zéro, j'utilise les bons outils, les bonnes AIs, et je persévère jusqu'à trouver une solution qui marche.
               </p>
               <p className="text-white/30 leading-relaxed text-sm mb-6">
-                Mon truc : le scripting Roblox et le développement web. J'aime
-                quand ça marche et quand ça a de la gueule.
+                Pas de formation, pas de diplôme. Juste de la curiosité, beaucoup d'essais-erreurs, et des projets concrets qui tournent.
               </p>
 
               {/* Tags */}
               <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2">
-                {["🇫🇷 France", "Roblox Dev", "Vibe Coder", "Autodidacte"].map(
+                {["🇫🇷 France", "14 ans", "Roblox Scripter", "Vibe Coder", "Autodidacte"].map(
                   (tag, i) => (
                     <span
                       key={i}
