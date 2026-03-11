@@ -3,7 +3,7 @@ import { Eye, ExternalLink, TrendingUp, Sparkles } from "lucide-react";
 const projects = [
   {
     title: "Last Letter — Mega Search Word 23",
-    desc: "Script Luau keyless pour le jeu Last Letter sur Roblox. Version avancée avec recherche de mots optimisée. Mon script le plus populaire.",
+    desc: "Script Luau keyless pour le jeu Last Letter sur Roblox. Version avancée avec recherche de mots optimisée. Mon script le plus populaire — vibe codé, testé, publié.",
     tags: ["Luau", "Keyless", "Roblox", "Last Letter"],
     views: "48k+",
     gradient: "from-neon-violet/30 to-neon-blue/10",
@@ -12,7 +12,7 @@ const projects = [
   },
   {
     title: "Last Letter — Script V1",
-    desc: "La première version de mon script pour Last Letter. Keyless, simple et efficace — c'est celui qui a lancé le tout.",
+    desc: "La première version de mon script pour Last Letter. Simple et keyless — c'est celui qui a tout lancé. Vibe codé à l'instinct.",
     tags: ["Luau", "Keyless", "Roblox", "V1"],
     views: "47k+",
     gradient: "from-neon-blue/25 to-neon-violet/10",
@@ -21,8 +21,8 @@ const projects = [
   },
   {
     title: "Ce portfolio",
-    desc: "Le site que tu regardes en ce moment. Construit avec React, TypeScript et Tailwind CSS. Design néon, responsive et vibe codé.",
-    tags: ["React", "Tailwind CSS", "TypeScript"],
+    desc: "Le site que tu regardes en ce moment. Vibe codé avec l'IA — React, TypeScript, Tailwind. Je ne maîtrise pas tout le stack, mais le résultat tourne.",
+    tags: ["Vibe Code", "React", "Tailwind CSS"],
     views: "—",
     gradient: "from-neon-green/15 to-neon-blue/10",
     featured: false,
@@ -58,14 +58,14 @@ export function Projects() {
             <TrendingUp size={20} className="text-neon-green" />
             <span className="text-white/50 text-sm">Total des vues sur RScripts :</span>
             <span className="text-2xl font-black text-gradient font-mono">
-              ~95,000
+              ~100k officielles
             </span>
           </div>
           <div className="hidden sm:block w-px h-8 bg-white/10" />
           <div className="flex items-center gap-2">
             <Sparkles size={14} className="text-neon-violet" />
             <span className="text-white/40 text-sm">
-              Et ça continue de grandir
+              ~200k en comptant les copies
             </span>
           </div>
         </div>
