@@ -77,7 +77,7 @@ export function ContactFooter() {
       <footer className="relative border-t border-white/5 py-8 px-6">
         <div className="mx-auto max-w-5xl flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-white/20 font-mono">
-            © {new Date().getFullYear()} Misha BLESKINE — Zenith__
+            © {new Date().getFullYear()} Misha ________ — Zenith__
           </p>
           <p className="flex items-center gap-1.5 text-xs text-white/20">
             Fait avec
