@@ -2,7 +2,26 @@ import { Eye, ExternalLink, TrendingUp, Sparkles } from "lucide-react";
 
 const projects = [
   {
-    title: "Proxy API — Temps Réel",
+    title: "Voxxium STT — Whisper API",
+    desc: "API de Speech-to-Text gratuite basée sur Whisper, hébergée sur HuggingFace Free Tier. Transcription audio précise, sans clé, sans limite apparente.",
+    tags: ["Python", "Whisper", "STT", "HuggingFace", "Free"],
+    views: "Live",
+    gradient: "from-neon-blue/30 to-neon-green/10",
+    featured: false,
+    link: "https://voxxium-stt.hf.space",
+    linkLabel: "Voir l'API",
+  },
+  {
+    title: "Voxxium TTS — Edge TTS API",
+    desc: "API de Text-to-Speech gratuite basée sur Edge TTS, compatible format OpenAI, hébergée sur HuggingFace Free Tier. Voix naturelles, aucune clé requise.",
+    tags: ["Python", "Edge TTS", "TTS", "HuggingFace", "OpenAI-compat", "Free"],
+    views: "Live",
+    gradient: "from-neon-violet/25 to-neon-blue/10",
+    featured: false,
+    link: "https://voxxium-edgetts-api-openai.hf.space",
+    linkLabel: "Voir l'API",
+  },
+  {
     desc: "API de proxy gratuit en temps réel hébergée sur Render. Temps de réponse moyen de 1 300 ms, 80 % de taux de réussite. Uniquement des proxies anonymes à élite. Entièrement gratuite, open & maintenue.",
     tags: ["Python", "Render", "Proxy", "API", "Free"],
     views: "Live",
