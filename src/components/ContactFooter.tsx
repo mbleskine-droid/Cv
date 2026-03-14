@@ -22,7 +22,7 @@ export function ContactFooter() {
           {/* Contact cards */}
           <div className="grid sm:grid-cols-3 gap-4 max-w-2xl mx-auto mb-10">
             <a
-              href="mailto:misha.bleskine@gmail.com"
+              href="mailto:Z3nith_Off@proton.me"
               className="glass-card rounded-xl p-6 hover-neon flex flex-col items-center gap-3 cursor-pointer transition-all duration-300"
             >
               <div className="w-12 h-12 rounded-full bg-neon-pink/10 flex items-center justify-center">
