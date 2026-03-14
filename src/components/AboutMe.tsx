@@ -67,7 +67,7 @@ export function AboutMe() {
               </div>
               {/* Nom sous l'avatar */}
               <div className="mt-3 text-center">
-                <p className="text-white/80 font-bold text-sm">Misha BLESKINE</p>
+                <p className="text-white/80 font-bold text-sm">Misha</p>
                 <p className="text-white/40 text-xs font-mono">Zenith__</p>
                 <p className="text-white/15 text-[10px] font-mono">ex voxxar20</p>
               </div>
