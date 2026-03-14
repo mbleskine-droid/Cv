@@ -2,6 +2,76 @@ import { Eye, ExternalLink, TrendingUp, Sparkles } from "lucide-react";
 
 const projects = [
   {
+    title: "Proxy API — Temps Réel",
+    desc: "API de proxy gratuit en temps réel hébergée sur Render. Temps de réponse moyen de 1 300 ms, 80 % de taux de réussite. Uniquement des proxies anonymes à élite. Entièrement gratuite, open & maintenue.",
+    tags: ["Python", "Render", "Proxy", "API", "Free"],
+    views: "Live",
+    gradient: "from-neon-green/30 to-neon-blue/10",
+    featured: true,
+    link: "https://proxychecker-fast.onrender.com/",
+    linkLabel: "Voir l'API",
+  },
+  {
+    title: "AI API — Multi-Modèles",
+    desc: "API IA complète hébergée sur Hugging Face. Modèles disponibles : Command-A Reasoning, GPT OSS 120B, ChatGPT, Command-A Vision, MiniMax 01 VL, Qwen 3 VL, Qwen Coder 2.5, GLM-4.5 et bien d'autres.",
+    tags: ["Python", "HuggingFace", "GPT", "Qwen", "GLM", "API"],
+    views: "Live",
+    gradient: "from-neon-violet/30 to-neon-blue/10",
+    featured: true,
+    link: "https://mb-idk-g4f.hf.space/",
+    linkLabel: "Voir l'API",
+  },
+  {
+    title: "Copilot Stealth Scraper",
+    desc: "Script de scraping Microsoft Copilot qui contourne les protections Cloudflare jusqu'au niveau Enterprise. Bypass complet des challenges JS, fingerprinting et WAF. Zéro API key requise.",
+    tags: ["Python", "Scraping", "Cloudflare Bypass", "Copilot", "Stealth"],
+    views: "—",
+    gradient: "from-neon-blue/30 to-neon-green/10",
+    featured: true,
+    link: null,
+    linkLabel: null,
+  },
+  {
+    title: "CroxyProxy API — Reverse Engineering",
+    desc: "Reverse engineering de CroxyProxy pour exposer plus de 90 proxies gratuits, rapides et maintenus via une API propre hébergée sur HuggingFace. 100 % gratuit, aucune clé requise.",
+    tags: ["Python", "Reverse Eng.", "Proxy", "HuggingFace", "Free"],
+    views: "Live",
+    gradient: "from-neon-blue/25 to-neon-violet/10",
+    featured: true,
+    link: "https://mb-idk-croxyproxyapi.hf.space/",
+    linkLabel: "Voir l'API",
+  },
+  {
+    title: "5+ Sites AI — Reverse Engineering",
+    desc: "Reverse engineering de plusieurs sites de chat IA : GPT avec web search, chat fichiers en Base64, recherche web via Jina AI. Endpoints non documentés extraits et réexposés proprement.",
+    tags: ["Reverse Eng.", "Python", "GPT", "Jina", "Base64", "Web Search"],
+    views: "—",
+    gradient: "from-neon-violet/25 to-neon-green/10",
+    featured: false,
+    link: null,
+    linkLabel: null,
+  },
+  {
+    title: "Faille Jina — 0-day Discovery",
+    desc: "Découverte d'une faille sur l'API Jina permettant d'exploiter le service de recherche web depuis des chats IA sans authentification. Trouvaille gardée, non divulguée.",
+    tags: ["Security", "0-day", "Jina", "Reverse Eng.", "Research"],
+    views: "—",
+    gradient: "from-neon-green/20 to-neon-violet/10",
+    featured: false,
+    link: null,
+    linkLabel: null,
+  },
+  {
+    title: "Groq Chatbot — Reverse Engineering",
+    desc: "Reverse engineering d'un site de chatbot IA propulsé par Groq. Accès libre à GPT OSS 120B, Llama 3.2 70B et d'autres modèles — sans clé, sans limite apparente.",
+    tags: ["Groq", "Reverse Eng.", "Llama", "GPT OSS", "Python"],
+    views: "—",
+    gradient: "from-neon-blue/20 to-neon-violet/15",
+    featured: false,
+    link: null,
+    linkLabel: null,
+  },
+  {
     title: "Last Letter — Mega Search Word 23",
     desc: "Script Luau keyless pour le jeu Last Letter sur Roblox. Version avancée avec recherche de mots optimisée. Mon script le plus populaire — vibe codé, testé, publié.",
     tags: ["Luau", "Keyless", "Roblox", "Last Letter"],
@@ -9,6 +79,7 @@ const projects = [
     gradient: "from-neon-violet/30 to-neon-blue/10",
     featured: true,
     link: "https://rscripts.net/script/last-letter-mega-search-word-23-keyless-pOl0",
+    linkLabel: "Voir sur RScripts",
   },
   {
     title: "Last Letter — Script V1",
@@ -18,6 +89,7 @@ const projects = [
     gradient: "from-neon-blue/25 to-neon-violet/10",
     featured: true,
     link: "https://rscripts.net/script/last-letter-script-keyless-v1-m8pH",
+    linkLabel: "Voir sur RScripts",
   },
   {
     title: "Ce portfolio",
@@ -27,6 +99,7 @@ const projects = [
     gradient: "from-neon-green/15 to-neon-blue/10",
     featured: false,
     link: null,
+    linkLabel: null,
   },
 ];
 
@@ -47,7 +120,7 @@ export function Projects() {
             Mes <span className="text-gradient">créations</span>
           </h2>
           <p className="text-sm text-white/25 max-w-md mx-auto">
-            Mes scripts Roblox publiés sur RScripts et mes autres projets.
+            APIs, reverse engineering, security research, scripts Roblox et plus.
           </p>
           <div className="neon-line w-24 mx-auto mt-6" />
         </div>
@@ -130,7 +203,7 @@ export function Projects() {
                     className="inline-flex items-center gap-2 text-xs text-white/30 hover:text-neon-violet transition-colors group/link"
                   >
                     <ExternalLink size={12} />
-                    <span>Voir sur RScripts</span>
+                    <span>{p.linkLabel ?? "Voir le projet"}</span>
                     <span className="group-hover/link:translate-x-1 transition-transform">
                       →
                     </span>
