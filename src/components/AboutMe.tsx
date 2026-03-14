@@ -77,7 +77,7 @@ export function AboutMe() {
             <div className="flex-1 text-center lg:text-left">
               <p className="text-white/60 leading-relaxed mb-4 text-sm sm:text-base">
                 Je m'appelle{" "}
-                <span className="text-white font-semibold">Misha BLESKINE</span>,
+                <span className="text-white font-semibold">Misha ________</span>,
                 j'ai 14 ans et je suis autodidacte. J'ai commencé par scripter en{" "}
                 <span className="text-neon-blue font-semibold">
                   Luau sur Roblox
