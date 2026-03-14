@@ -42,7 +42,7 @@ export function Hero() {
         {/* Name */}
         <h1 className="text-5xl sm:text-7xl lg:text-8xl font-black tracking-tighter mb-2 leading-none">
           <span className="text-gradient animate-neon-pulse">Misha</span>
-          <span className="text-white/90"> BLESKINE</span>
+          <span className="text-white/90"> ________</span>
         </h1>
 
         {/* Pseudo */}
