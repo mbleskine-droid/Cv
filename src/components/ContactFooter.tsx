@@ -29,7 +29,7 @@ export function ContactFooter() {
                 <Mail size={20} className="text-neon-pink" />
               </div>
               <span className="text-white/70 text-sm font-medium">Email</span>
-              <span className="text-white/30 text-[11px] font-mono">misha.bleskine@gmail.com</span>
+              <span className="text-white/30 text-[11px] font-mono">Z3nith_Off@proton.me</span>
             </a>
 
             <a
